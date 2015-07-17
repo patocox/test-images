@@ -1,4 +1,4 @@
 FROM busybox:latest
-expose 8900
+expose 8904
 COPY signal.sh /
 CMD ["/signal.sh"]
